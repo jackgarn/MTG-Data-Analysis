@@ -1,4 +1,4 @@
-# MTG-Data-Analysis
+# MTG Data Analysis
 Code for collecting, cleaning, transforming, and exporting data about Magic: The Gathering cards.
 
 Uses Scryfall's API to access bulk card data of two varieties, and outputs a cleaned CSV and Excel file for the corresponding dataset.  The "Oracle" cards contain an single entry for each unique magic card, and as such includes no card duplicates or treatments. The "Default" cards contain an entry for each printing of each card, including different versions or treatments (foil, full art, etc.).
